@@ -1,0 +1,402 @@
+{
+    "English": {
+        "de": "Englisch",
+        "it": "Inglese",
+        "ru": "Aнглийский"
+    },
+    "German": {
+        "de": "Deutsch",
+        "it": "Tedesca",
+        "ru": "Немецкий"
+    },
+    "Italian": {
+        "de": "Italienisch",
+        "it": "Italiana",
+        "ru": "Итальянский"
+    },
+    "Russian": {
+        "de": "Russisch",
+        "it": "Russa",
+        "ru": "Русский"
+    },
+    "Home": {
+        "de": "Startseite",
+        "it": "Pagina iniziale",
+        "ru": "Домашняя страница"
+    },
+    "Configurator": {
+        "de": "Konfigurator",
+        "it": "Configuratore",
+        "ru": "Конфигуратор"
+    },
+    "Online store": {
+        "de": "Online-Shop",
+        "it": "Negozio online",
+        "ru": "Онлайн магазин"
+    },
+    "Contact": {
+        "de": "Kontakt",
+        "it": "Contatto",
+        "ru": "Контакт"
+    },
+    "About us": {
+        "de": "Über uns",
+        "it": "Chi siamo",
+        "ru": "О нас"
+    },
+    "Car configurator": {
+        "de": "Fahrzeugkonfigurator",
+        "it": "Configuratore auto",
+        "ru": "Конфигуратор автомобилей"
+    },
+    "Get started by selecting a brand": {
+        "de": "Beginnen Sie mit der Auswahl einer Marke",
+        "it": "Inizia selezionando un marchio",
+        "ru": "Начните с выбора бренда"
+    },
+    "Select the model": {
+        "de": "Wählen Sie das Modell aus",
+        "it": "Seleziona il modello",
+        "ru": "Выберите модель"
+    },
+    "Select the generation": {
+        "de": "Wählen Sie die Generation aus",
+        "it": "Seleziona la generazione",
+        "ru": "Выберите поколение"
+    },
+    "Select the engine": {
+        "de": "Wählen Sie den Motor aus",
+        "it": "Seleziona il motore",
+        "ru": "Выберите двигатель"
+    },
+    "All brands": {
+        "de": "Alle Marken",
+        "it": "Tutti i marchi",
+        "ru": "Все бренды"
+    },
+    "Electric": {
+        "de": "Elektrisch",
+        "it": "Elettrica",
+        "ru": "Электрический"
+    },
+    "Hybrid": {
+        "de": "Hybrid",
+        "it": "Ibrida",
+        "ru": "Гибридный"
+    },
+    "Diesel": {
+        "de": "Diesel",
+        "it": "Diesel",
+        "ru": "Дизель"
+    },
+    "Gasoline": {
+        "de": "Benzin",
+        "it": "Benzina",
+        "ru": "Бензин"
+    },
+    "hp": {
+        "de": "PS",
+        "it": "hp",
+        "ru": "л.с."
+    },
+    "Original": {
+        "de": "Originale",
+        "it": "Originale",
+        "ru": "Оригинал"
+    },
+    "Tuning": {
+        "de": "Abstimmung",
+        "it": "Messa a punto",
+        "ru": "Тюнинг"
+    },
+    "Difference": {
+        "de": "Unterschied",
+        "it": "Differenza",
+        "ru": "Разница"
+    },
+    "Power": {
+        "de": "Leistung",
+        "it": "Potenza",
+        "ru": "Сила"
+    },
+    "Torque": {
+        "de": "Drehmoment",
+        "it": "Coppia",
+        "ru": "Крутящий момент"
+    },
+    "Price": {
+        "de": "Preis",
+        "it": "Prezzo",
+        "ru": "Цена"
+    },
+    "Tuning Solutions Online – Auto Tuning & Chip Services in Europe": {
+        "de": "Tuning Solutions Online – Autotuning & Chipservice in Europa",
+        "it": "Tuning Solutions Online – Servizi di Tuning Automatico e Chip in Europa",
+        "ru": "Tuning Solutions Online – услуги автотюнинга и чипа в Европе"
+    },
+    "We offer auto tuning services at very good prices. Select your car's brand & model to check our prices or request one of our services.": {
+        "de": "Wir bieten Autotuning-Dienstleistungen zu sehr guten Preisen an. Wählen Sie die Marke und das Modell Ihres Autos aus, um unsere Preise zu prüfen, oder fordern Sie einen unserer Services an.",
+        "it": "Offriamo servizi di auto tuning a prezzi molto convenienti. Seleziona la marca e il modello della tua auto per controllare i nostri prezzi o richiedere uno dei nostri servizi.",
+        "ru": "Предлагаем услуги автотюнинга по очень выгодным ценам. Выберите марку и модель вашего автомобиля, чтобы узнать наши цены, или запросите одну из наших услуг."
+    },
+    "We offer auto tuning services": {
+        "de": "Wir bieten Autotuning-Services an",
+        "it": "Offriamo servizi di autotuning",
+        "ru": "Предлагаем услуги автотюнинга"
+    },
+    "Auto Tuning & Chip Services": {
+        "de": "Autotuning & Chipservice",
+        "it": "Servizi di tuning automatico e chip",
+        "ru": "Услуги автотюнинга и чипа"
+    },
+    "More power. Less consumption.": {
+        "de": "Mehr Macht. Weniger Verbrauch.",
+        "it": "Più potenza. Meno consumi.",
+        "ru": "Больше силы. Меньшее потребление."
+    },
+    "Configure your car": {
+        "de": "Konfigurieren Sie Ihr Auto",
+        "it": "Configura la tua auto",
+        "ru": "Настройте свой автомобиль"
+    },
+    "Good price": {
+        "de": "Guter Preis",
+        "it": "Buon prezzo",
+        "ru": "Хорошая цена"
+    },
+    "We offer services at very good prices": {
+        "de": "Wir bieten Dienstleistungen zu sehr guten Preisen an",
+        "it": "Offriamo servizi a prezzi molto buoni",
+        "ru": "Мы предлагаем услуги по очень хорошим ценам"
+    },
+    "Trust": {
+        "de": "Vertrauen",
+        "it": "Fiducia",
+        "ru": "Доверять"
+    },
+    "We use PayPal so you can get a refund at any time": {
+        "de": "Wir verwenden PayPal, sodass Sie jederzeit eine Rückerstattung erhalten können",
+        "it": "Utilizziamo PayPal in modo da poter ottenere un rimborso in qualsiasi momento",
+        "ru": "Мы используем PayPal, поэтому вы можете получить возмещение в любое время."
+    },
+    "Fast": {
+        "de": "Schnell",
+        "it": "Veloce",
+        "ru": "Быстрый"
+    },
+    "We can quickly upgrade your car": {
+        "de": "Wir können Ihr Auto schnell aufrüsten",
+        "it": "Possiamo aggiornare rapidamente la tua auto",
+        "ru": "Мы можем быстро обновить ваш автомобиль"
+    },
+    "Full support": {
+        "de": "Volle Unterstützung",
+        "it": "Supporto totale",
+        "ru": "Полная поддержка"
+    },
+    "You can ask us any question at any time": {
+        "de": "Sie können uns jederzeit jede Frage stellen",
+        "it": "Puoi farci qualsiasi domanda in qualsiasi momento",
+        "ru": "Вы можете задать нам любой вопрос в любое время"
+    },
+    "ECU tuning files for professionals": {
+        "de": "ECU-Tuning-Dateien für Profis",
+        "it": "File di ottimizzazione ECU per professionisti",
+        "ru": "Файлы настройки ЭБУ для профессионалов"
+    },
+    "Chiptuning file service | Training, Tools and Marketing": {
+        "de": "Chiptuning-Dateidienst | Training, Tools und Marketing",
+        "it": "Servizio file di ottimizzazione aggiuntiva | Formazione, strumenti e marketing",
+        "ru": "Файловый сервис чиптюнинга | Обучение, инструменты и маркетинг"
+    },
+    "We offer high quality custom remapped tuning files for both petrol and diesel vehicles. Discover our innovative file-service including automatic file detection, statistics, datalogs and dynosheet viewer along with a variety help services.": {
+        "de": "Wir bieten qualitativ hochwertige, individuell angepasste Tuning-Dateien für Benzin- und Dieselfahrzeuge an. Entdecken Sie unseren innovativen Dateidienst mit automatischer Dateierkennung, Statistiken, Datenprotokollen und Dynosheet-Viewer sowie einer Vielzahl von Hilfsdiensten.",
+        "it": "Offriamo file di tuning rimappati personalizzati di alta qualità per veicoli a benzina e diesel. Scopri il nostro servizio di file innovativo che include il rilevamento automatico dei file, le statistiche, i registri dati e il visualizzatore di fogli dinamici insieme a una varietà di servizi di assistenza.",
+        "ru": "Мы предлагаем высококачественные пользовательские переназначенные файлы тюнинга как для бензиновых, так и для дизельных автомобилей. Откройте для себя нашу инновационную файловую службу, включающую автоматическое обнаружение файлов, статистику, журналы данных и средство просмотра dynosheet, а также различные справочные службы."
+    },
+    "The perfect solution for a solid business.": {
+        "de": "Die perfekte Lösung für ein solides Geschäft.",
+        "it": "La soluzione perfetta per un business solido.",
+        "ru": "Идеальное решение для стабильного бизнеса."
+    },
+    "Professional tools.": {
+        "de": "Professionelle Werkzeuge.",
+        "it": "Attrezzi professionali.",
+        "ru": "Профессиональные инструменты."
+    },
+    "Feedback": {
+        "de": "Rückmeldung",
+        "it": "Risposta",
+        "ru": "Обратная связь"
+    },
+    "What our clients say?": {
+        "de": "Was unsere Kunden sagen?",
+        "it": "Cosa dicono i nostri clienti?",
+        "ru": "Что говорят наши клиенты?"
+    },
+    "Need more information?": {
+        "de": "Wünschen Sie weitere Informationen?",
+        "it": "Hai bisogno di maggiori informazioni?",
+        "ru": "нужно больше информации?"
+    },
+    "Contact us": {
+        "de": "Kontaktiere uns",
+        "it": "Contattaci",
+        "ru": "Связаться с нами"
+    },
+    "See contact info": {
+        "de": "Siehe Kontaktdaten",
+        "it": "Vedi informazioni di contatto",
+        "ru": "См. контактную информацию"
+    },
+    "Location in UK": {
+        "de": "Standort in Großbritannien",
+        "it": "Posizione nel Regno Unito",
+        "ru": "Расположение в Великобритании"
+    },
+    "Location in Italy": {
+        "de": "Standort in Italien",
+        "it": "Posizione in Italia",
+        "ru": "Расположение в Италии"
+    },
+    "Out of stock": {
+        "de": "Ausverkauft",
+        "it": "Esaurito",
+        "ru": "Распродано"
+    },
+    "Special function & solution": {
+        "de": "Sonderfunktion & Lösung",
+        "it": "Funzione e soluzione speciali",
+        "ru": "Специальная функция и решение"
+    },
+    "Special": {
+        "de": "Speziell",
+        "it": "Speciale",
+        "ru": "Специальный"
+    },
+    "Autotunerflash  offer a wide range of services to both the Trade and Public.\nWe can modify almost every file.\nStarting from motorcycle cars van trucks. Tuning solution online  offer Stage 1/2 tuning files, VMAX removal, EGR, DPF/FAP, AdBlue, OPF/GPF, Swirl Flaps removal, readiness and sport display calibrations, Torque Monitoring, Immo, TVA, Start/Stop, MAF, O2 and EGR services, DTC speed limit off, NOX , LAMBDA , MAF , LAUNCH CONTROL ,POP BANG , POPCORN , START & STOP\nLAMBDA\nHot start , glow plug\nHard cut\nLaunch Control\nRev Limiter\nTprot\nWater pomp solution VAG\n\nPlease note, not all functions are supported for every ECU! removal and many more.\n\nThis program allows you process files only, it does not support reading/writing operations!": {
+        "de": "Autotunerflash bietet sowohl dem Handel als auch der Öffentlichkeit eine breite Palette von Dienstleistungen an.\nWir können fast jede Datei ändern.\nAusgehend von Motorrad-Autos Van Trucks. Tuning-Lösung Online-Angebot Stage 1/2 Tuning-Dateien, VMAX-Entfernung, EGR, DPF/FAP, AdBlue, OPF/GPF, Swirl Flaps-Entfernung, Bereitschafts- und Sportanzeigekalibrierung, Drehmomentüberwachung, Immo, TVA, Start/Stop, MAF, O2 und EGR-Dienste, DTC-Geschwindigkeitsbegrenzung aus, NOX, LAMBDA, MAF, LAUNCH CONTROL, POP BANG, POPCORN, START & STOP\nLAMBDA\nHeißstart, Glühkerze\nHarter Schnitt\nStart Steuerung\nDrehzahlbegrenzer\nTprot\nWasserpumplösung VAG\n\nBitte beachten Sie, dass nicht alle Funktionen für jedes Steuergerät unterstützt werden! Entfernung und vieles mehr.\n\nMit diesem Programm können Sie nur Dateien verarbeiten, es unterstützt keine Lese-/Schreiboperationen!",
+        "it": "Autotuneflash offre un'ampia gamma di servizi sia al Commercio che al Pubblico.\nPossiamo modificare quasi tutti i file.\nA partire da moto, auto, furgoni. La soluzione di ottimizzazione online offre file di ottimizzazione Stage 1/2, rimozione VMAX, EGR, DPF/FAP, AdBlue, OPF/GPF, rimozione Swirl Flaps, prontezza e calibrazioni del display sportivo, monitoraggio della coppia, Immo, TVA, Start/Stop, MAF, O2 e servizi EGR, limite di velocità DTC disattivato, NOX, LAMBDA, MAF, LAUNCH CONTROL, POP BANG, POPCORN, START & STOP\nLAMBDA\nAvviamento a caldo, candeletta\nTaglio duro\nControllo di lancio\nLimitatore di giri\nTprot\nSoluzione pompa acqua VAG\n\nSi prega di notare che non tutte le funzioni sono supportate per ogni ECU! rimozione e molti altri.\n\nQuesto programma consente di elaborare solo file, non supporta operazioni di lettura/scrittura!",
+        "ru": "Autotunerflash предлагает широкий спектр услуг как для торговли, так и для общественности.\nМы можем изменить почти каждый файл.\nНачиная с мотоциклетных автомобилей, фургонов. Онлайн-предложение решения для настройки Файлы настройки Stage 1/2, удаление VMAX, EGR, DPF/FAP, AdBlue, OPF/GPF, удаление вихревых заслонок, калибровка дисплея готовности и спорта, мониторинг крутящего момента, Immo, TVA, Start/Stop, MAF, O2 и службы EGR, ограничение скорости DTC отключено, NOX, LAMBDA, MAF, LAUNCH CONTROL, POP BANG, POPCORN, START & STOP\nлямбда\nГорячий старт, свеча накаливания\nЖесткий разрез\nКонтроль запуска\nОграничитель оборотов\nТпрот\nРешение водяной помпы VAG\n\nОбратите внимание, что не все функции поддерживаются каждым ЭБУ! удаление и многое другое.\n\nЭта программа позволяет обрабатывать только файлы, она не поддерживает операции чтения/записи!"
+    },
+    "Autotunerflash  offer a wide range of services to both the Trade and Public.": {
+        "de": "Autotunerflash bietet sowohl dem Handel als auch der Öffentlichkeit eine breite Palette von Dienstleistungen an.",
+        "it": "Autotuneflash offre un'ampia gamma di servizi sia al Commercio che al Pubblico.",
+        "ru": "Autotunerflash предлагает широкий спектр услуг как для торговли, так и для общественности."
+    },
+    "Chiptuning Flash – Remap and tunning | Cars | Vans | Trucks | Tractors | Autotuner | Alientech | DPF | ECU | EGR | AdBlue | DSG | ZF": {
+        "de": "Chiptuning Flash – Remap and tunning | Cars | Vans | Trucks | Tractors | Autotuner | Alientech | DPF | ECU | EGR | AdBlue | DSG | ZF",
+        "it": "Chiptuning Flash – Remap and tunning | Cars | Vans | Trucks | Tractors | Autotuner | Alientech | DPF | ECU | EGR | AdBlue | DSG | ZF",
+        "ru": "Chiptuning Flash – Remap and tunning | Cars | Vans | Trucks | Tractors | Autotuner | Alientech | DPF | ECU | EGR | AdBlue | DSG | ZF"
+    },
+    "We offer real-time support with a member of our team, to offer you peace of mind.": {
+        "de": "We offer real-time support with a member of our team, to offer you peace of mind.",
+        "it": "We offer real-time support with a member of our team, to offer you peace of mind.",
+        "ru": "We offer real-time support with a member of our team, to offer you peace of mind."
+    },
+    "We offer our services at a cost-effective competitive pricing that provides more bang for your buck!": {
+        "de": "We offer our services at a cost-effective competitive pricing that provides more bang for your buck!",
+        "it": "We offer our services at a cost-effective competitive pricing that provides more bang for your buck!",
+        "ru": "We offer our services at a cost-effective competitive pricing that provides more bang for your buck!"
+    },
+    "We use PayPay to ensure all our customers are eligible for PayPal Buyer Protection.": {
+        "de": "We use PayPay to ensure all our customers are eligible for PayPal Buyer Protection.",
+        "it": "We use PayPay to ensure all our customers are eligible for PayPal Buyer Protection.",
+        "ru": "We use PayPay to ensure all our customers are eligible for PayPal Buyer Protection."
+    },
+    "We pledge to do everything within our power to deliver modified files within 45 minutes.": {
+        "de": "We pledge to do everything within our power to deliver modified files within 45 minutes.",
+        "it": "We pledge to do everything within our power to deliver modified files within 45 minutes.",
+        "ru": "We pledge to do everything within our power to deliver modified files within 45 minutes."
+    },
+    "Experienced and trained tuners": {
+        "de": "Experienced and trained tuners",
+        "it": "Experienced and trained tuners",
+        "ru": "Experienced and trained tuners"
+    },
+    "with 15+ years of tuning experience.": {
+        "de": "with 15+ years of tuning experience.",
+        "it": "with 15+ years of tuning experience.",
+        "ru": "with 15+ years of tuning experience."
+    },
+    "The best solutions guarantee": {
+        "de": "The best solutions guarantee",
+        "it": "The best solutions guarantee",
+        "ru": "The best solutions guarantee"
+    },
+    "we pledge to deliver consistent high": {
+        "de": "we pledge to deliver consistent high",
+        "it": "we pledge to deliver consistent high",
+        "ru": "we pledge to deliver consistent high"
+    },
+    "Global specialist": {
+        "de": "Global specialist",
+        "it": "Global specialist",
+        "ru": "Global specialist"
+    },
+    "We are the result of a worldwide network of chip tuning specialists.": {
+        "de": "We are the result of a worldwide network of chip tuning specialists.",
+        "it": "We are the result of a worldwide network of chip tuning specialists.",
+        "ru": "We are the result of a worldwide network of chip tuning specialists."
+    },
+    "Welcome to Chiptuning Flash": {
+        "de": "Welcome to Chiptuning Flash",
+        "it": "Welcome to Chiptuning Flash",
+        "ru": "Welcome to Chiptuning Flash"
+    },
+    "We are class leading ECU Remapping specialist for Cars, Vans, Trucks, Agricultural & Plant Machinery, providing tuning files for Autotuner, Alientech and every other tunning tool. We are based in London, United Kingdom and we operate, through our network of partners, in all Europe and West Asia. We have the most advance genuine tooling that allows us to tune your vehicle safely and at the most competitive prices.": {
+        "de": "We are class leading ECU Remapping specialist for Cars, Vans, Trucks, Agricultural & Plant Machinery, providing tuning files for Autotuner, Alientech and every other tunning tool. We are based in London, United Kingdom and we operate, through our network of partners, in all Europe and West Asia. We have the most advance genuine tooling that allows us to tune your vehicle safely and at the most competitive prices.",
+        "it": "We are class leading ECU Remapping specialist for Cars, Vans, Trucks, Agricultural & Plant Machinery, providing tuning files for Autotuner, Alientech and every other tunning tool. We are based in London, United Kingdom and we operate, through our network of partners, in all Europe and West Asia. We have the most advance genuine tooling that allows us to tune your vehicle safely and at the most competitive prices.",
+        "ru": "We are class leading ECU Remapping specialist for Cars, Vans, Trucks, Agricultural & Plant Machinery, providing tuning files for Autotuner, Alientech and every other tunning tool. We are based in London, United Kingdom and we operate, through our network of partners, in all Europe and West Asia. We have the most advance genuine tooling that allows us to tune your vehicle safely and at the most competitive prices."
+    },
+    "Become a partner": {
+        "de": "Become a partner",
+        "it": "Become a partner",
+        "ru": "Become a partner"
+    },
+    "We offer complete tunning solutions such as Tunning Files, Tuning/Remapping Tools and Accessories, along with constant professional support.": {
+        "de": "We offer complete tunning solutions such as Tunning Files, Tuning/Remapping Tools and Accessories, along with constant professional support.",
+        "it": "We offer complete tunning solutions such as Tunning Files, Tuning/Remapping Tools and Accessories, along with constant professional support.",
+        "ru": "We offer complete tunning solutions such as Tunning Files, Tuning/Remapping Tools and Accessories, along with constant professional support."
+    },
+    "Tunning Files": {
+        "de": "Tunning Files",
+        "it": "Tunning Files",
+        "ru": "Tunning Files"
+    },
+    "Services": {
+        "de": "Services",
+        "it": "Services",
+        "ru": "Services"
+    },
+    "ECU Remapping": {
+        "de": "ECU Remapping",
+        "it": "ECU Remapping",
+        "ru": "ECU Remapping"
+    },
+    "DPF Delete": {
+        "de": "DPF Delete",
+        "it": "DPF Delete",
+        "ru": "DPF Delete"
+    },
+    "EGR Delete": {
+        "de": "EGR Delete",
+        "it": "EGR Delete",
+        "ru": "EGR Delete"
+    },
+    "AdBlue Delete": {
+        "de": "AdBlue Delete",
+        "it": "AdBlue Delete",
+        "ru": "AdBlue Delete"
+    },
+    "Speed Limiter Removal": {
+        "de": "Speed Limiter Removal",
+        "it": "Speed Limiter Removal",
+        "ru": "Speed Limiter Removal"
+    },
+    "DSG and ZF Gearbox Remapping": {
+        "de": "DSG and ZF Gearbox Remapping",
+        "it": "DSG and ZF Gearbox Remapping",
+        "ru": "DSG and ZF Gearbox Remapping"
+    }
+}

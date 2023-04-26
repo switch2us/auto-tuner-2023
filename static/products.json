@@ -1,0 +1,70 @@
+[
+    {
+        "id": "2",
+        "label": "Kess3 slave hardware only",
+        "url_label": "kess3-slave-hardware-only-id-2",
+        "description": "",
+        "out_of_stock": false,
+        "cost": 499,
+        "images": [
+            "/media/tools/cars-obd-bench-boot-protocols-activate.jpeg"
+        ]
+    },
+    {
+        "id": "6",
+        "label": "Cars obd bench boot protocols activate",
+        "url_label": "cars-obd-bench-boot-protocols-activate-id-6",
+        "description": "ECU and TCU programming via OBD, boot and bench KESS3\n\nKESS3 has been developed to provide everyone, from the young engine enthusiast to the most specialized mechatronic technicians with a quick and simple interface to any engine control unit and automatic gearbox on the market.\n\nSensational performance, high operational flexibility and ease of use allow you to interface with engines and gearbox control units with a single tool.\n\nDISCOVER KESS3\nTRADE-IN\nKESS3\n\nECU and TCU programming via OBD, boot and bench.\n\nWelcome third dimension.\n\nThanks to thirty years of experience and nearly three years of development, KESS3 is the most advanced engineering achievement ever conceived in the Chiptuning industry.\n\nAlientech has made a significant breakthrough to create something unique and extraordinary, which has no equal in the market, in terms of functions, convenience, and versatility.\n\nKESS3 has been developed to provide everyone, from the young engine enthusiast to the most specialized mechatronic technicians with a quick and simple interface to any engine control unit and automatic gearbox on the market.\n\nSensational performance, high operational flexibility and ease of use allow you to interface with engines and gearbox control units with a single tool.\n\nSlave version\nSw activation obd cars\n12 months free update\n\nFor other protocols you can send a message or add after purchase.",
+        "out_of_stock": false,
+        "cost": 1390,
+        "images": [
+            "/media/tools/cars-obd-bench-boot-protocols-activate.jpeg",
+            "/media/tools/cars-obd-bench-boot-protocols-activate-2.jpeg",
+            "/media/tools/cars-obd-bench-boot-protocols-activate-3.jpeg",
+            "/media/tools/cars-obd-bench-boot-protocols-activate-4.jpeg",
+            "/media/tools/cars-obd-bench-boot-protocols-activate-5.jpeg"
+        ],
+        "added_ts": 1649402071904
+    },
+    {
+        "id": "3",
+        "label": "Autotuner Slave Full Bench Boot Obd2 Free Update x Life",
+        "url_label": "autotuner-slave-full-bench-boot-obd2-free-update-x-life-id-3",
+        "description": "",
+        "out_of_stock": false,
+        "reduced_from_cost": 3600,
+        "reduced_percentage": 25,
+        "cost": 2700,
+        "images": [
+            "/media/tools/autotuner-slave-full-bench-boot-obd2-free-update-x-life.jpeg",
+            "/media/tools/autotuner-slave-full-bench-boot-obd2-free-update-x-life-2.jpeg"
+        ]
+    },
+    {
+        "id": "4",
+        "label": "XTOOL A80 pro Master Original OBD2 Car Diagnostic tools VCI J2534 Programmer ECU Coding PK 908P OBD2 Scanner Free online Update",
+        "url_label": "xtool-a80-pro-master-original-obd2-car-diagnostic-tools-vci-j2534-programmer-ecu-coding-pk-908p-obd2-scanner-free-online-update-id-4",
+        "description": "",
+        "out_of_stock": true,
+        "cost": 2250,
+        "images": [
+            "/media/tools/xtool-a80-pro-master-original-obd2-car-diagnostic-tools-vci-j2534-programmer-ecu-coding-pk-908p-obd2-scanner-free-online-update.jpeg",
+            "/media/tools/xtool-a80-pro-master-original-obd2-car-diagnostic-tools-vci-j2534-programmer-ecu-coding-pk-908p-obd2-scanner-free-online-update-2.jpeg",
+            "/media/tools/xtool-a80-pro-master-original-obd2-car-diagnostic-tools-vci-j2534-programmer-ecu-coding-pk-908p-obd2-scanner-free-online-update-3.jpeg",
+            "/media/tools/xtool-a80-pro-master-original-obd2-car-diagnostic-tools-vci-j2534-programmer-ecu-coding-pk-908p-obd2-scanner-free-online-update-4.jpeg",
+            "/media/tools/xtool-a80-pro-master-original-obd2-car-diagnostic-tools-vci-j2534-programmer-ecu-coding-pk-908p-obd2-scanner-free-online-update-5.jpeg",
+            "/media/tools/xtool-a80-pro-master-original-obd2-car-diagnostic-tools-vci-j2534-programmer-ecu-coding-pk-908p-obd2-scanner-free-online-update-6.jpeg"
+        ]
+    },
+    {
+        "id": "5",
+        "label": "Professional Automotive Full Systems OBD2  Scanner for Android",
+        "url_label": "professional-automotive-full-systems-obd2-scanner-for-android-id-5",
+        "description": "Newest Thinkdiag Launch X431 Pro version Car diagnostic.\n\nTwo Years Free Updates (no lock after Two Years, keep using) Updates From Third Part Server (DIAGZONE).\n\nFully Activated Version With All Features.\n\nCommunicates via Bluetooth  Reading System ECU Information.\n\nFault Code Reader of Any Control Modual (DTC).\n\nClear Fault Codes (DTC).\n\nLive Data Graphs with Displays Activation, Adaptation, Coding online (for exemple: ABS VAG , FRM3 BMW) and more.\n\nDPF Reset and Regeneration.\n\nInjector Programming / Coding.\n\nElectronic Parking Brake Reset ABS Bleeding.\n\nOil and Service Reset.\n\nSAS Reset.\n\nBattery adaptation.\n\nNOx Sensor Reset.\n\nEGR Adaptation.\n\nSTAR/STOP RESET\n\n2year free updates and online coding bmw mercedes vag land rover jaguar",
+        "out_of_stock": false,
+        "cost": 780,
+        "images": [
+            "/media/tools/professional-automotive-full-systems-obd2-scanner-for-android.jpeg"
+        ]
+    }
+]
