@@ -81,7 +81,7 @@
 								class:active={activeIndex == 3 && $page.url.hash == '#ecu-remapping'}
 								class:not-active={activeIndex != 3 || $page.url.hash != '#ecu-remapping'}
 								class="group hover-underline-animation relative justify-center items-center text-sm mx-2 lg:mx-5 py-4 pt-2 -mb-2 hover:no-underline"
-								href="/{$langStore}/services#ecu-remapping"
+								href="/{$langStore}/services/ecu-remapping"
 							>
 								<span class="text-black whitespace-nowrap"
 									>{getTranslatedString('ECU Remapping', $langStore)}
@@ -93,7 +93,7 @@
 								class:active={activeIndex == 3 && $page.url.hash == '#dpf-delete'}
 								class:not-active={activeIndex != 3 || $page.url.hash != '#dpf-delete'}
 								class="group hover-underline-animation relative justify-center items-center text-sm mx-2 lg:mx-5 py-4 pt-2 -mb-2 hover:no-underline"
-								href="/{$langStore}/services#dpf-delete"
+								href="/{$langStore}/services/dpf-delete"
 							>
 								<span class="text-black whitespace-nowrap"
 									>{getTranslatedString('DPF Delete', $langStore)}
@@ -105,7 +105,7 @@
 								class:active={activeIndex == 3 && $page.url.hash == '#egr-delete'}
 								class:not-active={activeIndex != 3 || $page.url.hash != '#egr-delete'}
 								class="group hover-underline-animation relative justify-center items-center text-sm mx-2 lg:mx-5 py-4 pt-2 -mb-2 hover:no-underline"
-								href="/{$langStore}/services#egr-delete"
+								href="/{$langStore}/services/egr-delete"
 							>
 								<span class="text-black whitespace-nowrap"
 									>{getTranslatedString('EGR Delete', $langStore)}
@@ -117,7 +117,7 @@
 								class:active={activeIndex == 3 && $page.url.hash == '#adblue-delete'}
 								class:not-active={activeIndex != 3 || $page.url.hash != '#adblue-delete'}
 								class="group hover-underline-animation relative justify-center items-center text-sm mx-2 lg:mx-5 py-4 pt-2 -mb-2 hover:no-underline"
-								href="/{$langStore}/services#adblue-delete"
+								href="/{$langStore}/services/adblue-delete"
 							>
 								<span class="text-black whitespace-nowrap"
 									>{getTranslatedString('AdBlue Delete', $langStore)}
@@ -129,7 +129,7 @@
 								class:active={activeIndex == 3 && $page.url.hash == '#speed-limiter-removal'}
 								class:not-active={activeIndex != 3 || $page.url.hash != '#speed-limiter-removal'}
 								class="group hover-underline-animation relative justify-center items-center text-sm mx-2 lg:mx-5 py-4 pt-2 -mb-2 hover:no-underline"
-								href="/{$langStore}/services#speed-limiter-removal"
+								href="/{$langStore}/services/speed-limiter-removal"
 							>
 								<span class="text-black whitespace-nowrap"
 									>{getTranslatedString('Speed Limiter Removal', $langStore)}
@@ -142,7 +142,7 @@
 								class:not-active={activeIndex != 3 ||
 									$page.url.hash != '#dsg-and-zf-gearbox-remapping'}
 								class="group hover-underline-animation relative justify-center items-center text-sm mx-2 lg:mx-5 py-4 pt-2 -mb-2 hover:no-underline"
-								href="/{$langStore}/services#dsg-and-zf-gearbox-remapping"
+								href="/{$langStore}/services/dsg-and-zf-gearbox-remapping"
 							>
 								<span class="text-black whitespace-nowrap"
 									>{getTranslatedString('DSG and ZF Gearbox Remapping', $langStore)}

@@ -89,14 +89,14 @@
 	<a
 		style="--notch-size: 10px;"
 		class="notched-button p-1 scale-75 bg-white hover:bg-gradient-to-br from-purple-500 to-yellow-500 bg-opacity-50 text-gray-500 hover:text-white no-underline transition-transform"
-		href="https://adrianilisei.pages.dev"
+		href="https://www.switch2us.com/"
 		rel="noopener external author"
 		target="_blank"
 	>
 		<span
 			style="--notch-size: 8px;"
 			class="notched-button cursor-pointer flex p-3 px-6 uppercase text-xs font-bold leading-none bg-white transition-transform"
-			>Designed by adrian ilisei</span
+			>SEO by Switch2Us</span
 		>
 	</a>
 </div>

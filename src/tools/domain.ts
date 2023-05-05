@@ -1,4 +1,4 @@
-const domains: string[] = ['tunerflash.de']
+const domains: string[] = ['autotunerflash.com']
 const _domain = ((import.meta.env.VITE_DOMAIN ?? domains[0]) as string).toLowerCase()
 export const domain = domains.indexOf(_domain) != -1 ? _domain : domains[0]
 export const websiteName = 'Chiptuning Flash'

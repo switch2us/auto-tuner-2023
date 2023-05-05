@@ -3,7 +3,7 @@
 	import MediaSection from '../components/media-section.svelte';
 	import TextSection from '../components/text-section.svelte';
 	import BulletsSection from '../components/bullets-section.svelte';
-	import { getTranslatedString, langStore, defaultLang } from '../tools/lang';
+	import { getTranslatedString, langStore } from '../tools/lang';
 	import { domain, metaTitle } from '../tools/domain';
 	import PayPal from '../tools/paypal';
 	import { get } from 'svelte/store';
@@ -78,7 +78,7 @@
 </script>
 
 <svelte:head>
-	<link rel="canonical" href="https://{domain}" />
+	<link rel="canonical" href="https://{domain}/{$langStore}/services/dpf-delete" />
 
 	<!-- Standard Meta Tags -->
 	<title>{getTranslatedString(metaTitle, $langStore)}</title>
@@ -126,20 +126,6 @@
 <MediaSection imageUrl="/media/engine-special-function.jpeg" marginBottom fixedBackground dark>
 	<div slot="title" class="text-white">
 		<ol class="w-full text-justify list-decimal text-lg">
-			<strong><li class="text-2xl my-20 mb-5">ECU Remapping</li></strong>
-			<div>
-				<strong class="flex mt-5 mb-1">ECU Remapping & Tuning</strong>
-				<p>
-					All modern Cars and Vans are fitted with an ECU or ECM (Electronic control unit/module).
-					This is essentially the engines brain, a built-in processor which receives signals and
-					readings from various sensors on the engine. By taking a read of the software installed on
-					the ECU known as the “map”, we can then modify the map and customise it to suit your need.
-					We then write the modified map back on to the ECU. We have Remapping / Tuning solutions
-					for Cars and Vans of almost every make on the road.
-				</p>
-				<a href="/{$langStore}/services/ecu-remapping" class="mt-4 inline-block bg-theme_primary hover:bg-theme_primary-dark ring-theme_primary text-theme_primary-text ring-4 ring-opacity-50 border-0 font-semibold p-2 px-4 rounded-full font-light">Read More</a>
-				
-			</div>
 			<strong><li class="text-2xl my-20 mb-5">DPF Delete</li></strong>
 			<div>
 				<strong class="flex mt-5 mb-1">What is a DPF Filter? (Diesel Particulate Filter)</strong>
@@ -150,86 +136,57 @@
 					(regen for short), which is controlled by the engines ECU. There are many factors that
 					need to be reached in order for the filter to be successfully regen’d, No faults stored in
 					the ECU, Exhaust gas temperature to be within the correct parameters, Exhaust back
-					pressure to be within the correct parameters and much much more...
+					pressure to be within the correct parameters and much much more. If for any reason these
+					factors are not met then it is likely that the regen process will fail and the filter will
+					not be successfully cleaned as it should be, causing it to become blocked. At this point
+					the filter is “cleaned” or even worse “replaced” which buys you a short amount time until
+					it blocks again, as the root cause has not been fixed, which ends up costing the consumer
+					(you) time and money.
 				</p>
-				<a href="/{$langStore}/services/dpf-delete" class="mt-4 inline-block bg-theme_primary hover:bg-theme_primary-dark ring-theme_primary text-theme_primary-text ring-4 ring-opacity-50 border-0 font-semibold p-2 px-4 rounded-full font-light">Read More</a>
-				
-			</div>
-
-			<strong><li class="text-2xl my-20 mb-5">EGR Delete</li></strong>
-			<div>
-				<strong class="flex mt-5 mb-1"
-					>What is an EGR Valve (Exhaust Gas Recirculation Valve)?</strong
-				>
+				<strong class="flex mt-5 mb-1">Tractors and Plant Machinery Remapping</strong>
 				<p>
-					An EGR valve recirculates exhaust gases back through the engine’s inlet manifold at
-					various engine RPMs controlled by the ECU. Some are vacuum controlled and some
-					electronically. Why recirculate dirty exhaust fumes back through the inlet manifold?
-					Believe it or not this lowers the combustion temperature which in turn lowers the amount
-					of NOx (nitrogen oxide) produced by the engine. Due to the dirty fumes passing through the
-					EGR valve and inlet manifold this can cause a carbon build up. In turn this can block the
-					EGR valve, causing it to stick open....
+					With the ever-evolving world of the Agricultural and plant machines we can take advantage
+					of these modern systems to enhance performance, while also aiding with fuel savings. We
+					see very good results from remapping and tuning tractors and construction machinery. With
+					plant machines working in difficult and harsh conditions running such complex systems we
+					are finding systems are failing such as AdBlue, EGR & DPF problems, causing costly repairs
+					and down time on machines. With the latest, genuine tooling we can provide tuning files to
+					remap your Agricultural and Construction Machines Safely and Efficiently keeping your
+					valuable machine working on site.
 				</p>
-				<a href="/{$langStore}/services/egr-delete" class="mt-4 inline-block bg-theme_primary hover:bg-theme_primary-dark ring-theme_primary text-theme_primary-text ring-4 ring-opacity-50 border-0 font-semibold p-2 px-4 rounded-full font-light">Read More</a>
-			</div>
-
-			<strong><li class="text-2xl my-20 mb-5">AdBlue Delete</li></strong>
-			<div>
-				<strong class="flex mt-5 mb-1">What is AdBlue / SCR (Selective Catalytic Reduction)?</strong
-				>
+				<strong class="flex mt-5 mb-1">Do you have DPF issues?</strong>
 				<p>
-					AdBlue / SCR is an emission-based exhaust after-treatment system, designed to lower NOx
-					emissions. What is done when doing an AdBlue delete? We disable the AdBlue function from
-					the ECU, in some cases we also need to get a read from the DCU (dosing control module).
-					With this function disabled there will be no more warning lights, limp mode or even worse,
-					no start condition...
+					If your vehicle or your client’s have DPF issues and is stuck in limp mode with warning
+					lights on the dash, we can offer DPF files that resolve these issues and a mobile service
+					to help rectify your issues.
 				</p>
-				<a href="/{$langStore}/services/adblue-delete" class="mt-4 inline-block bg-theme_primary hover:bg-theme_primary-dark ring-theme_primary text-theme_primary-text ring-4 ring-opacity-50 border-0 font-semibold p-2 px-4 rounded-full font-light">Read More</a>
-				
-			</div>
-
-			<strong><li class="text-2xl my-20 mb-5">Speed Limiter Removal</li></strong>
-			<div>
-				<strong class="flex mt-5 mb-1"
-					>What is a Speed limiter and why does my vehicle have one?</strong
-				>
-				<p>
-					We mainly remove speed limiters from commercial vehicles. Speed limiters are generally set
-					for insurance purposes and fleet vehicles are also common to be limited...
-				</p>
-				<a href="/{$langStore}/services/speed-limiter-removal" class="mt-4 inline-block bg-theme_primary hover:bg-theme_primary-dark ring-theme_primary text-theme_primary-text ring-4 ring-opacity-50 border-0 font-semibold p-2 px-4 rounded-full font-light">Read More</a>
-			</div>
-
-			<strong><li class="text-2xl my-20 mb-5">DSG and ZF Gearbox Remapping</li></strong>
-			<div>
-				<strong class="flex mt-5 mb-1">VAG DSG & BMW ZF Gearbox Tuning / Remapping</strong>
-				<p>
-					Arguably one of the finest automatic gearboxes to be made. Split second gear changes,
-					silky smooth gear changes, predicting the drivers next move are just some of the
-					advantages. As with all OEM system, they are restricted. Our custom tuning allows us to
-					unlock the DSG’s full potential, below are some of the modifications we make. A DSG remap
-					is recommended when carrying out a stage 2 remap on VAG vehicles...
-				</p>
-				<a href="/{$langStore}/services/dsg-and-zf-gearbox-remapping" class="mt-4 inline-block bg-theme_primary hover:bg-theme_primary-dark ring-theme_primary text-theme_primary-text ring-4 ring-opacity-50 border-0 font-semibold p-2 px-4 rounded-full font-light">Read More</a>
+				<strong class="flex mt-5 mb-1">Issues caused by failed regen's</strong>
+				<ul class="list-disc">
+					<li>Increased fuel consumption</li>
+					<li>Heavy smoke from the exhaust</li>
+					<li>Excess diesel being injected into the cylinder</li>
+					<li>Passing of excess diesel into the engines oil sump</li>
+					<li>Contaminated engine oil with diesel</li>
+					<li>Engine wear due to contaminated engine oil</li>
+				</ul>
+				<strong class="flex mt-5 mb-1">What is done when doing a DPF delete?</strong>
+				<ul class="list-disc">
+					<li>Removal of the DPF internals</li>
+					<li>
+						Recalibrating the ECU to remove the DPF functions to stop any further attempts of
+						regeneration
+					</li>
+				</ul>
+				<strong class="flex mt-5 mb-1">What are the advantages of a DPF Delete</strong>
+				<ul class="list-disc">
+					<li>Improved fuel economy</li>
+					<li>More performance</li>
+					<li>Lower exhaust gas temperatures</li>
+					<li>Less engine wears</li>
+					<li>Reduced servicing costs</li>
+				</ul>
 			</div>
 		</ol>
-
-		<strong><li class="text-2xl my-20 mb-5 list-outside">Special Functions</li></strong>
-		<div>
-			<p>
-				The available modules allow costumers to perform many unique modifications such as AGS
-				removal, DPF removal, DTC removal, AdBlue removal, Burbles Activation, Popcorn Activation,
-				IMMO removal, Cold Start Noise Reduction, Hot Start Fix, Boost Sensor Calibration, Kickdown
-				Deactivation, Sport Displays Calibration, Flaps removal, MAF removal, EGR removal, Lambda/O2
-				removal, Speed Limiter removal, torq monitor, DTC, glow plugs, Hardcut, readiness, Special
-				repairs, Start Stop, Trot remove, tuning protection, TVA, water pump removing vag pcr 2.1
-				edc17, y75 removing mercedes benz, Ford gate problem, mercedes benz edc16c31 / c36 m55
-				error, immo flash, immo eeprom / eprom, fiat immo 29f400 edc15c7, Marella 8f3 Revirgin
-				eprom, psa edc15 / edc17, vag immo me7, mercedes Start error fixed, Evap, emmision monitor
-				off, opf, recovery, original files provide, and much more.
-			</p>
-		</div>
-
 		<div class="flex w-full mt-48">
 			<div
 				class="relative flex flex-col justify-start items-center w-[calc(100%-2.5rem)] md:w-96 bg-white/75 text-black rounded p-8 mx-auto z-1 overflow-hidden"

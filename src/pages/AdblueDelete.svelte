@@ -3,7 +3,7 @@
 	import MediaSection from '../components/media-section.svelte';
 	import TextSection from '../components/text-section.svelte';
 	import BulletsSection from '../components/bullets-section.svelte';
-	import { getTranslatedString, langStore, defaultLang } from '../tools/lang';
+	import { getTranslatedString, langStore } from '../tools/lang';
 	import { domain, metaTitle } from '../tools/domain';
 	import PayPal from '../tools/paypal';
 	import { get } from 'svelte/store';
@@ -78,7 +78,7 @@
 </script>
 
 <svelte:head>
-	<link rel="canonical" href="https://{domain}" />
+	<link rel="canonical" href="https://{domain}/{$langStore}/services/adblue-delete" />
 
 	<!-- Standard Meta Tags -->
 	<title>{getTranslatedString(metaTitle, $langStore)}</title>
@@ -126,53 +126,6 @@
 <MediaSection imageUrl="/media/engine-special-function.jpeg" marginBottom fixedBackground dark>
 	<div slot="title" class="text-white">
 		<ol class="w-full text-justify list-decimal text-lg">
-			<strong><li class="text-2xl my-20 mb-5">ECU Remapping</li></strong>
-			<div>
-				<strong class="flex mt-5 mb-1">ECU Remapping & Tuning</strong>
-				<p>
-					All modern Cars and Vans are fitted with an ECU or ECM (Electronic control unit/module).
-					This is essentially the engines brain, a built-in processor which receives signals and
-					readings from various sensors on the engine. By taking a read of the software installed on
-					the ECU known as the “map”, we can then modify the map and customise it to suit your need.
-					We then write the modified map back on to the ECU. We have Remapping / Tuning solutions
-					for Cars and Vans of almost every make on the road.
-				</p>
-				<a href="/{$langStore}/services/ecu-remapping" class="mt-4 inline-block bg-theme_primary hover:bg-theme_primary-dark ring-theme_primary text-theme_primary-text ring-4 ring-opacity-50 border-0 font-semibold p-2 px-4 rounded-full font-light">Read More</a>
-				
-			</div>
-			<strong><li class="text-2xl my-20 mb-5">DPF Delete</li></strong>
-			<div>
-				<strong class="flex mt-5 mb-1">What is a DPF Filter? (Diesel Particulate Filter)</strong>
-				<p>
-					A DPF Filter is made up of precious metals in a honeycomb shaped element. It’s fitted to
-					the vehicles exhaust system and is designed to catch soot particles from the exhaust
-					gases. It is a self-cleaning filter which is carried out by a process called regeneration
-					(regen for short), which is controlled by the engines ECU. There are many factors that
-					need to be reached in order for the filter to be successfully regen’d, No faults stored in
-					the ECU, Exhaust gas temperature to be within the correct parameters, Exhaust back
-					pressure to be within the correct parameters and much much more...
-				</p>
-				<a href="/{$langStore}/services/dpf-delete" class="mt-4 inline-block bg-theme_primary hover:bg-theme_primary-dark ring-theme_primary text-theme_primary-text ring-4 ring-opacity-50 border-0 font-semibold p-2 px-4 rounded-full font-light">Read More</a>
-				
-			</div>
-
-			<strong><li class="text-2xl my-20 mb-5">EGR Delete</li></strong>
-			<div>
-				<strong class="flex mt-5 mb-1"
-					>What is an EGR Valve (Exhaust Gas Recirculation Valve)?</strong
-				>
-				<p>
-					An EGR valve recirculates exhaust gases back through the engine’s inlet manifold at
-					various engine RPMs controlled by the ECU. Some are vacuum controlled and some
-					electronically. Why recirculate dirty exhaust fumes back through the inlet manifold?
-					Believe it or not this lowers the combustion temperature which in turn lowers the amount
-					of NOx (nitrogen oxide) produced by the engine. Due to the dirty fumes passing through the
-					EGR valve and inlet manifold this can cause a carbon build up. In turn this can block the
-					EGR valve, causing it to stick open....
-				</p>
-				<a href="/{$langStore}/services/egr-delete" class="mt-4 inline-block bg-theme_primary hover:bg-theme_primary-dark ring-theme_primary text-theme_primary-text ring-4 ring-opacity-50 border-0 font-semibold p-2 px-4 rounded-full font-light">Read More</a>
-			</div>
-
 			<strong><li class="text-2xl my-20 mb-5">AdBlue Delete</li></strong>
 			<div>
 				<strong class="flex mt-5 mb-1">What is AdBlue / SCR (Selective Catalytic Reduction)?</strong
@@ -182,54 +135,26 @@
 					emissions. What is done when doing an AdBlue delete? We disable the AdBlue function from
 					the ECU, in some cases we also need to get a read from the DCU (dosing control module).
 					With this function disabled there will be no more warning lights, limp mode or even worse,
-					no start condition...
+					no start condition.
 				</p>
-				<a href="/{$langStore}/services/adblue-delete" class="mt-4 inline-block bg-theme_primary hover:bg-theme_primary-dark ring-theme_primary text-theme_primary-text ring-4 ring-opacity-50 border-0 font-semibold p-2 px-4 rounded-full font-light">Read More</a>
-				
-			</div>
-
-			<strong><li class="text-2xl my-20 mb-5">Speed Limiter Removal</li></strong>
-			<div>
-				<strong class="flex mt-5 mb-1"
-					>What is a Speed limiter and why does my vehicle have one?</strong
-				>
+				<strong class="flex mt-5 mb-1">How does AdBlue work?</strong>
 				<p>
-					We mainly remove speed limiters from commercial vehicles. Speed limiters are generally set
-					for insurance purposes and fleet vehicles are also common to be limited...
+					In short – The AdBlue / SCR System is made up from lots of components, AdBlue Tank, AdBlue
+					Pump, AdBlue Injector, SCR Catalytic Converter. The system is controlled by the ECU / DCU
+					and is monitored by many sensors which are very expensive to replace if faulty. UREA is
+					injected into the SCR filter which in turn causes a chemical reaction converting NOx gases
+					into a Nitrogen / water vapour. The video below illustrates more in detail how AdBlue
+					works.
 				</p>
-				<a href="/{$langStore}/services/speed-limiter-removal" class="mt-4 inline-block bg-theme_primary hover:bg-theme_primary-dark ring-theme_primary text-theme_primary-text ring-4 ring-opacity-50 border-0 font-semibold p-2 px-4 rounded-full font-light">Read More</a>
-			</div>
-
-			<strong><li class="text-2xl my-20 mb-5">DSG and ZF Gearbox Remapping</li></strong>
-			<div>
-				<strong class="flex mt-5 mb-1">VAG DSG & BMW ZF Gearbox Tuning / Remapping</strong>
+				<strong class="flex mt-5 mb-1">Do you have AdBlue Issues?</strong>
 				<p>
-					Arguably one of the finest automatic gearboxes to be made. Split second gear changes,
-					silky smooth gear changes, predicting the drivers next move are just some of the
-					advantages. As with all OEM system, they are restricted. Our custom tuning allows us to
-					unlock the DSG’s full potential, below are some of the modifications we make. A DSG remap
-					is recommended when carrying out a stage 2 remap on VAG vehicles...
+					It is very common for AdBlue faults to cause a non-start condition, if this is the case
+					and your Car, Van or Tractor is in a situation where it will not start or the vehicle is
+					in limp mode with warning lights on the dash, we are able to provide our AdBlue delete
+					solutions to both tuners and general public on a mobile basis.
 				</p>
-				<a href="/{$langStore}/services/dsg-and-zf-gearbox-remapping" class="mt-4 inline-block bg-theme_primary hover:bg-theme_primary-dark ring-theme_primary text-theme_primary-text ring-4 ring-opacity-50 border-0 font-semibold p-2 px-4 rounded-full font-light">Read More</a>
 			</div>
 		</ol>
-
-		<strong><li class="text-2xl my-20 mb-5 list-outside">Special Functions</li></strong>
-		<div>
-			<p>
-				The available modules allow costumers to perform many unique modifications such as AGS
-				removal, DPF removal, DTC removal, AdBlue removal, Burbles Activation, Popcorn Activation,
-				IMMO removal, Cold Start Noise Reduction, Hot Start Fix, Boost Sensor Calibration, Kickdown
-				Deactivation, Sport Displays Calibration, Flaps removal, MAF removal, EGR removal, Lambda/O2
-				removal, Speed Limiter removal, torq monitor, DTC, glow plugs, Hardcut, readiness, Special
-				repairs, Start Stop, Trot remove, tuning protection, TVA, water pump removing vag pcr 2.1
-				edc17, y75 removing mercedes benz, Ford gate problem, mercedes benz edc16c31 / c36 m55
-				error, immo flash, immo eeprom / eprom, fiat immo 29f400 edc15c7, Marella 8f3 Revirgin
-				eprom, psa edc15 / edc17, vag immo me7, mercedes Start error fixed, Evap, emmision monitor
-				off, opf, recovery, original files provide, and much more.
-			</p>
-		</div>
-
 		<div class="flex w-full mt-48">
 			<div
 				class="relative flex flex-col justify-start items-center w-[calc(100%-2.5rem)] md:w-96 bg-white/75 text-black rounded p-8 mx-auto z-1 overflow-hidden"
